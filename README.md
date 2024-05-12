@@ -1,4 +1,4 @@
-# Some thoughts about the two recommender systems
+# Some thoughts about evaluating and comparing the two recommender systems
 
 To evaluate the performance of recommendation systems either content based or collaborative filtering approaches, there are certain metrics we can use like the **Mean Average Precision(MAP) and Mean Average Recall(MAR)**. The average precision across all users considering the order of recommendations. Higher values indicate better performance when the sequence of recommendations is important.
 Here we use **Cosine Similarity** to evaluate how similar the items recommended are to the user’s profile or previously liked items based on content features and **Feature Coverage** to measure the proportion of features (such as genres and tags in movies) that are used to make suggestions.
